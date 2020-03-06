@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Pets</string>
+    <string name="lbl_Email">Pets</string>
+    <string name="lbl_Password">Password</string>
 </resources>

@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="lbl_Email">Correo</string>
+    <string name="lbl_Password">Contraseña</string>
+</resources>
