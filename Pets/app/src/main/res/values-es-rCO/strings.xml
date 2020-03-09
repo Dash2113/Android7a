@@ -3,4 +3,5 @@
     <string name="app_name">Mascotas</string>
     <string name="lbl_Email">Correo</string>
     <string name="lbl_Password">Contraseña</string>
+    <string name="ht_email">Pepe@email.com</string>
 </resources>

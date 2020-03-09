@@ -17,4 +17,7 @@ public class LoginActivity extends AppCompatActivity {
     public void btn_login(View view){
         Toast.makeText(this, "Yo have pressed the button", Toast.LENGTH_SHORT).show();
     }
+    public void btn_singup(View view){
+        Toast.makeText(this, "Yo have pressed sing up button", Toast.LENGTH_SHORT).show();
+    }
 }
