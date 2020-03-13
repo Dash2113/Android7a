@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Colors</string>
+    <string name="lbl_Red">Red</string>
+    <string name="lbl_Blue">Blue</string>
+    <string name="lbl_Green">Green</string>
+    <string name="lbl_Alfa">Alfa</string>
+
+</resources>
