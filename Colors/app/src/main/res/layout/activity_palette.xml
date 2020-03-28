@@ -22,15 +22,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/lbl_Red"
-                android:textSize="18dp" />
+                android:text="@string/lbl_red"
+                android:textSize="18sp" />
 
             <SeekBar
                 android:id="@+id/seekBar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -43,8 +42,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/lbl_Green"
-                android:textSize="18dp" />
+                android:text="@string/lbl_green"
+                android:textSize="18sp" />
 
             <SeekBar
                 android:id="@+id/seekBar2"
@@ -63,8 +62,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/lbl_Blue"
-                android:textSize="18dp" />
+                android:text="@string/lbl_blue"
+                android:textSize="18sp" />
 
             <SeekBar
                 android:id="@+id/seekBar3"
@@ -83,8 +82,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/lbl_Alfa"
-                android:textSize="18dp" />
+                android:text="@string/lbl_alpha"
+                android:textSize="18sp" />
 
             <SeekBar
                 android:id="@+id/seekBar4"
@@ -96,7 +95,9 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="333dp"
-            tools:srcCompat="@drawable/images" />
+            android:layout_height="330dp"
+            android:src="@d" />
+
     </LinearLayout>
+
 </RelativeLayout>

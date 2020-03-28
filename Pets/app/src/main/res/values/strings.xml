@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Pets</string>
-    <string name="lbl_Email">Email</string>
-    <string name="lbl_Password">Password</string>
-    <string name="ht_email">Pepe@email.com</string>
-
+    <string name="lbl_fname">Firstname</string>
+    <string name="lbl_lname">Lastname</string>
+    <string name="ht_fname">Peter</string>
+    <string name="lbl_reg_act">Users register</string>
+    <string name="lbl_email">E-mail</string>
+    <string name="lbl_password">Password</string>
+    <string name="btn_Sign_in">Sign in</string>
+    <string name="btn_Sign_up">Sign up</string>
+    <string name="txt_loginbar">Login</string>
+    <string name="ht_email">peter@gmail.com</string>
 </resources>
