@@ -12,6 +12,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Palette extends AppCompatActivity
@@ -22,6 +23,7 @@ public class Palette extends AppCompatActivity
     private SeekBar vBlue = null;
     private SeekBar vAlpha = null;
     private View vFilter = null;
+    private TextView vColor = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,11 +37,13 @@ public class Palette extends AppCompatActivity
         vBlue = findViewById(R.id.sbrBlue);
         vAlpha = findViewById(R.id.sbrAlpha);
         vFilter = findViewById(R.id.vieColors);
+        vColor = findViewById(R.id.ColorSelected);
 
         vRed.setOnSeekBarChangeListener(this);
         vGreen.setOnSeekBarChangeListener(this);
         vBlue.setOnSeekBarChangeListener(this);
         vAlpha.setOnSeekBarChangeListener(this);
+
 
         //Show the context menu WHEN I do a long press in the component
         registerForContextMenu(vFilter);
@@ -68,10 +72,12 @@ public class Palette extends AppCompatActivity
 
             case R.id.icTransparent :
                 vAlpha.setProgress(0);
+                vColor.setText("Trasparente");
                 break;
 
             case R.id.iteTransparent :
                 vAlpha.setProgress(0);
+                vColor.setText("Trasparente");
                 //Toast.makeText(this, "This color is going to change", Toast.LENGTH_SHORT).show();
                 break;
 
@@ -80,10 +86,12 @@ public class Palette extends AppCompatActivity
                 vRed.setProgress(0);
                 vGreen.setProgress(0);
                 vBlue.setProgress(0);
+                vColor.setText("Semi-Transparente");
                 break;
 
             case R.id.iteOpaque :
                 vAlpha.setProgress(255);
+                vColor.setText("Opaco");
                 break;
 
             case R.id.iteBlack :
@@ -91,6 +99,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(0);
                 vBlue.setProgress(0);
                 vAlpha.setProgress(128);
+                vColor.setText("Negro");
                 break;
 
             case R.id.iteWhite :
@@ -99,6 +108,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(255);
                 vBlue.setProgress(255);
                 vAlpha.setProgress(128);
+                vColor.setText("Blanco");
                 break;
 
             case R.id.iteRed :
@@ -106,6 +116,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(0);
                 vBlue.setProgress(0);
                 vAlpha.setProgress(128);
+                vColor.setText("Rojo");
                 break;
 
             case R.id.iteGreen :
@@ -114,6 +125,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(255);
                 vBlue.setProgress(0);
                 vAlpha.setProgress(128);
+                vColor.setText("Verde");
                 break;
 
             case R.id.iteBlue :
@@ -122,6 +134,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(0);
                 vBlue.setProgress(255);
                 vAlpha.setProgress(128);
+                vColor.setText("Azul");
                 break;
 
             case R.id.iteCyan :
@@ -129,6 +142,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(255);
                 vBlue.setProgress(255);
                 vAlpha.setProgress(128);
+                vColor.setText("Cyan");
                 break;
 
             case R.id.iteMagenta :
@@ -136,6 +150,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(0);
                 vBlue.setProgress(255);
                 vAlpha.setProgress(128);
+                vColor.setText("Magenta");
                 break;
 
             case R.id.iteYellow :
@@ -143,6 +158,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(255);
                 vBlue.setProgress(0);
                 vAlpha.setProgress(128);
+                vColor.setText("Amarillo");
                 break;
 
             case R.id.iteReset :
@@ -150,6 +166,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(0);
                 vBlue.setProgress(0);
                 vAlpha.setProgress(0);
+                vColor.setText("");
                 break;
 
             case R.id.iteAboutOf :
@@ -194,6 +211,7 @@ public class Palette extends AppCompatActivity
                 vGreen.setProgress(0);
                 vBlue.setProgress(0);
                 vAlpha.setProgress(0);
+                vColor.setText("");
                 break;
         }
 

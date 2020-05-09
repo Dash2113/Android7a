@@ -34,4 +34,6 @@
 try until you find the color you like the best </string>
     <string name="Text2">Also remember that you can change the transparency with the seekbar Alpha </string>
     <string name="Text3">Good luck </string>
+
+    <string name="ColorSelected"></string>
 </resources>

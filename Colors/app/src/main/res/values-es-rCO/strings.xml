@@ -28,4 +28,5 @@
     <string name="Text1">Tu puedes cambiar el color usando los seekbar, prueba hasta que encuentres el color que mas te guste </string>
     <string name="Text2">Tambien reuerda que puedes cambiar la trasparencia con el seekbar alfa</string>
     <string name="Text3">Buena suerte </string>
+    <string name="ColorSelected"></string>
 </resources>
