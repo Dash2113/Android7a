@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Shopping cart</string>
+
+
+    <string name="IteProduct">Product name:</string>
+    <string name="IteQuantity">Quantity:</string>
+    <string name="IteAdd">Add to cart</string>
+    <string name="IteBuy">Buy</string>
+</resources>

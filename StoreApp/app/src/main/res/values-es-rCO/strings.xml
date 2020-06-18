@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shopping cart</string>
+
+    <string name="IteProduct">Nombre producto:</string>
+    <string name="IteQuantity">Cantidad:</string>
+    <string name="IteAdd">Añadir</string>
+    <string name="IteBuy">Comprar</string>
+</resources>
